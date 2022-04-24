@@ -1,0 +1,21 @@
+"""
+Locators related wishlist page
+"""
+
+
+wishlist_button = "//span[@class='myntraweb-sprite desktop-iconWishlist sprites-headerWishlist']"
+wishlist_text = "//span[contains(text(),'My Wishlist')]"
+items_in_wishlist = "//*[@class='itemcard-itemImage']"
+search_field = "//input[@placeholder='Search for products, brands and more']"
+add_items_from_wishlist = "//div[contains(@class,'button-base-button emptyCart-base-wishlistButton')]"
+remove_icon = "//div[@id='item0']//div[@class='itemcard-removeIcon']"
+count_items = "//div[@class='itemcard-itemCard']"
+count_text = "//span[@class='index-count index-heading']"
+move_to_bag_icon = "//div[@id='item0']//a[@class='itemcard-moveToBag itemcard-boldFont'][normalize-space()='MOVE TO BAG']"
+first_size = "//button[@class='sizeselect-sizeButton'][position()=1]"
+add_to_cart = "//div[@class='sizeselect-done']"
+first_item_in_wishlist = "//div[@id='item0']//img[@class='itemcard-itemImage']"
+category_verify = "//li[@class='breadcrumbs-item'][position()=3]"
+first_item = "//li[@class='product-base'][position()=1]"
+wishlist_particular_item = "//span[normalize-space()='WISHLIST']"
+first_product = "//li[@class='product-base'][position()=1]"
